@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="CodeHim" />
+  <link rel="icon"  href="./6661043.png">
+  <title>Gun Shop</title>
+  <!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- fontawsome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">FACEBOOK</a></li>
+          <li><a href="#">INSTAGRAM</a></li>
+          <li><a href="#">SUBSCRIBE</a></li>
+        </ul>
+      </nav>
+      <div id="cart-icon"><i class='bx bxs-shopping-bags'></i></div>
+  </header>
+  <main>
+    <!-- card container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+          <h4 class="badge-pill badge-light mt-3 mb-3 p-2 text-center">
+            Products
+          </h4>
+          <div class="row">
+            <!--first-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="723041182_1_sm.jpg" alt="jxp10" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info bold product-name">
+                    Hi Point JXP10 10mm Pistol TB
+                  </h5>
+                  <p class="card-text text-success product-price">368 $</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--second-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="91847_sm.jpg" alt="Magnum Revolver" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">
+                   European American Armory Windicator Blued 4" 357 Magnum Revolver
+                  </h5>
+                  <p class="card-text text-success product-price">420 $</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button2" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row">
+            <!--third-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="./411559926_2_sm.jpg" alt=" Winchester SXP" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">
+                    Winchester SXP Trench 18" 12 Gauge Shotgun</h5>
+                  <p class="card-text text-success product-price">465 $</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button3" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--add product-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="125792_4_sm.jpg" alt="prd4" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">JTS M12AK Tactical 12 Gauge Shotgun</h5>
+                  <p class="card-text text-success product-price">286 $</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button3" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+         
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="./723025701_1_sm.jpg" alt=" Gauge Shotgun" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">
+                    JTS M12AK Tactical 12 Gauge Shotgun</h5>
+                  <p class="card-text text-success product-price">500 $</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button3" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+              <div class="shadow-sm card mb-3 product">
+                <img class="product-img" src="./723019664_sm.jpg" alt=" AR Rifle" onmouseover="animateImg(this)"
+                  onmouseout="normalImg(this)" />
+                <div class="card-body">
+                  <h5 class="card-title text-info product-name">
+                    S&W M&P15 Sport Crimson Trace Bundle 5.56 AR Rifle</h5>
+                  <p class="card-text text-success product-price">750 $</p>
+                  <button class="btn badge badge-pill badge-secondary mt-2 float-right" type="button"
+                    data-action="add-to-cart">
+                    Add to cart
+                  </button>
+                  <button id="heart-button3" class="heart">
+                    <i class="fa fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+          <h4 class="badge-pill badge-light mt-3 mb-3 p-2 text-center">
+            Cart
+          </h4>
+          <div class="cart">
+            <h2>Your Cart</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="credit">
+  
+    <h2><span></span>use the gun to self defense
+      <br>made in albania
+      <span></span></h2>
+
+  </footer>
+  <!-- javascript link -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
